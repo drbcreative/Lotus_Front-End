@@ -1,0 +1,81 @@
+/* -------------------------------------------------------------------------- */
+/* RESPONSIVE MEDIA QUERIES */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/* SMALL BREAKPOINT (Landscape Phones and Up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 576px) {
+  .ui-btn {
+    display: inline-flex;
+    width: auto;
+    padding: 0.8rem 0.5rem;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* MEDIUM BREAKPOINT (Tablets 768px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .ui-btn {
+    display: inline-flex;
+    min-width: 186px;
+    // padding: 0.8rem 1rem;
+  }
+
+  .topbar {
+    .containerish {
+      padding: .3rem 1rem;
+    }
+  }
+
+}
+
+/* -------------------------------------------------------------------------- */
+/* LARGE BREAKPOINT (Desktops 992px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 992px) {
+  .ui-btn {
+    display: inline-flex;
+    padding: 1.3rem 0.3rem;
+  }
+
+  /* TOPBAR ***************************************************************** */
+  .topbar {
+    background-color: transparent;
+    padding: .3rem 1rem;
+
+    .containerish {
+      padding: .3rem 0;
+    }
+  }
+
+  /* NAVBAR ***************************************************************** */
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* EXTRA LARGE BREAKPOINT (Large Desktops 1200px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+  .main-content-wrapper {
+    padding-bottom: 12rem;
+
+    .ui-btn {
+      padding: 1.3rem 1.5rem;
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* MACBOOK PRO 15" BREAKPOINT (Large Desktops 1400px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 1400px) {}
+
+/* -------------------------------------------------------------------------- */
+/* SUPER LARGE BREAKPOINT (IMAC STATUS 1900px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 1900px) {}

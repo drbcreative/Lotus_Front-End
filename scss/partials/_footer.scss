@@ -1,0 +1,39 @@
+/* -------------------------------------------------------------------------- */
+/* FOOTER */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* FOOTER 1 SECTION */
+/* -------------------------------------------------------------------------- */
+.footer-1 {}
+
+/* -------------------------------------------------------------------------- */
+/* FOOTER 2 SECTION */
+/* -------------------------------------------------------------------------- */
+.footer2 {
+  background-color: $color-white;
+  width: 100%;
+  padding: 0.6rem 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  .containerish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+
+    .footer-link-2 {
+      font-weight: 300;
+      font-size: 12px;
+      line-height: calc(12px * 1.5);
+      font-family: $font-primary;
+      color: $color-dark-accent !important;
+
+      &:hover {
+        color: $color-light-accent;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+body,
+html {
+  background: url('../img/body-bg@2x.jpg') center / cover;
+  background-attachment: fixed;
+}
+
+.containerish {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
