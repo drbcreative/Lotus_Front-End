@@ -29,3 +29,28 @@
     }
   }
 }
+
+/* SEARCH ******************************************************************* */
+.search {
+  background: $color-white;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+
+    .form-control {
+      border-radius: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-control:not(button) {
+      border: 1px solid #ededed;
+    }
+
+    ::placeholder {
+      color: #3e3a42;
+      font-family: $font-primary;
+      font-size: 15px;
+    }
+  }
+}
