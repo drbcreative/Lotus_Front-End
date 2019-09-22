@@ -77,6 +77,56 @@
       }
     }
   }
+
+  /* BOTOX JUVADERM ********************************************************* */
+  .bo-derm {
+    padding: 40px 0;
+
+    .containerish {
+      display: grid;
+
+      .col-left,
+      .col-right {
+        padding: 20px 20px;
+      }
+
+      .col-img {
+        margin-bottom: 2rem;
+      }
+
+      .section-info {
+        position: relative;
+        padding: 0
+      }
+    }
+  }
+
+  /* LASERVAG  ************************************************************** */
+  .laservag {
+    padding: 0;
+    height: 700px;
+
+    .containerish {
+      position: relative;
+
+      .section-img {
+        width: 65%;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: -25px;
+      }
+
+      .section-info {
+        width: 60%;
+        max-width: 580px;
+        position: absolute;
+        top: 250px;
+        left: 50px;
+        z-index: 25;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -262,6 +312,63 @@
       }
     }
   }
+
+  /* BOTOX JUVADERM ********************************************************* */
+  .bo-derm {
+    padding: 40px 0 60px 0;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 3rem;
+
+      .section-banner-img {
+        grid-column: 1 / -1;
+        margin-bottom: 3rem;
+      }
+
+      .col-left,
+      .col-right {
+        padding: 20px 20px;
+      }
+
+      .col-img {
+        margin-bottom: 2rem;
+      }
+
+      .section-info {
+        position: relative;
+        padding: 0
+      }
+    }
+  }
+
+  /* LASERVAG *************************************************************** */
+  .laservag {
+    padding: 0;
+    height: 800px;
+
+    .containerish {
+      position: relative;
+
+      .section-img {
+        width: 75%;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: -25px;
+      }
+
+      .section-info {
+        width: 50%;
+        max-width: 580px;
+        position: absolute;
+        top: 375px;
+        left: 50px;
+        z-index: 25;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -323,6 +430,64 @@
 
       .section-info {
         position: relative;
+      }
+    }
+  }
+
+  /* BOTOX JUVADERM ********************************************************* */
+  .bo-derm {
+    padding: 40px 0 80px 0;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 3rem;
+
+      .section-banner-img {
+        grid-column: 1 / -1;
+        margin-bottom: 3rem;
+      }
+
+      .col-left,
+      .col-right {
+        padding: 20px 3rem;
+      }
+
+      .col-img {
+        margin-bottom: 2rem;
+      }
+
+      .section-info {
+        position: relative;
+        padding: 0
+      }
+    }
+  }
+
+  /* LASERVAG ************************************************************** */
+  .laservag {
+    padding: 0;
+    height: 1000px;
+
+    .containerish {
+      position: relative;
+
+      .section-img {
+        width: 75%;
+        max-width: 1155px;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: -45px;
+      }
+
+      .section-info {
+        width: 50%;
+        max-width: 580px;
+        position: absolute;
+        top: 500px;
+        left: 80px;
+        z-index: 25;
       }
     }
   }
@@ -413,6 +578,64 @@
         p {
           max-width: 521px;
         }
+      }
+    }
+  }
+
+  /* BOTOX JUVADERM ********************************************************* */
+  .bo-derm {
+    padding: 80px 0 100px 0;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 3rem;
+
+      .section-banner-img {
+        grid-column: 1 / -1;
+        margin-bottom: 3rem;
+      }
+
+      .col-left,
+      .col-right {
+        padding: 20px 2.5rem;
+      }
+
+      .col-img {
+        margin-bottom: 2rem;
+      }
+
+      .section-info {
+        position: relative;
+        padding: 0
+      }
+    }
+  }
+
+  /* LASERVAG *************************************************************** */
+  .laservag {
+    padding: 0;
+    height: 1100px;
+
+    .containerish {
+      position: relative;
+
+      .section-img {
+        width: 75%;
+        max-width: 1155px;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: -45px;
+      }
+
+      .section-info {
+        width: 50%;
+        max-width: 580px;
+        position: absolute;
+        top: 700px;
+        left: 80px;
+        z-index: 25;
       }
     }
   }

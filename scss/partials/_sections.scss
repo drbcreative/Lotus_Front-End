@@ -111,3 +111,37 @@
     }
   }
 }
+
+/* BOTOX JUVADERM *********************************************************** */
+.bo-derm {
+  padding: 20px 0;
+
+  .containerish {
+    display: grid;
+
+    .col-left,
+    .col-right {
+      padding: 20px 20px;
+    }
+
+    .col-img {
+      margin-bottom: 1rem;
+    }
+
+    .section-info {
+      position: relative;
+      padding: 0
+    }
+  }
+}
+
+/* MENOPAUSE **************************************************************** */
+.laservag {
+  background: linear-gradient(80deg, #CC5475, #5D6198);
+  min-height: 300px;
+  padding: 40px 20px;
+
+  .containerish {
+    position: relative;
+  }
+}
