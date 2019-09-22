@@ -13,7 +13,7 @@
 </head>
 
 <body id="home">
-  <header id="mobile-header">
+  <header>
     <!-- topbar -->
     <div class="topbar">
       <div class="containerish">
@@ -25,23 +25,28 @@
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
-
+        <div class="col-mid d-none d-lg-block">
+          <p class="small-copy is-bold color-text-grey">
+            Refer a friend and you will BOTH receive $25 off your next appointment!
+          </p>
+        </div>
         <div class="col-right">
-          <a href="#" class="topbar-link d-none d-lg-block">PROMOTIONS</a>
-          <a href="#" class="topbar-link d-none d-lg-block">EVENTS</a>
-          <a href="#" class="topbar-link d-none d-lg-block">BLOG</a>
-          <a href="tel:555-555-5555" class="topbar-link">(555) 555-5555</a>
+          <a href="#" class="topbar-link">Promotions</a>
+          <a href="#" class="topbar-link">Events</a>
+          <a href="#" class="topbar-link">Blog</a>
+          <a href="tel:512-716-0971" class="topbar-link">(512) 716-0971</a>
         </div>
       </div>
     </div>
     <!-- /topbar -->
 
     <!-- navbar -->
-    <section class="navbar-wrapper">
+    <div class="nav-wrapper">
       <div class="containerish">
-        <nav class="navbar navbar-expand-lg navbar-light px-0">
-          <a class="navbar-brand d-block d-lg-none" href="#">
-            <img src="img/logo-mobile.svg" class="nav-logo" alt="">
+
+        <nav class="navbar navbar-expand-lg navbar-light px-lg-0">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.svg" class="nav-logo" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
             aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,15 +54,22 @@
           </button>
 
           <div class="collapse navbar-collapse" id="main-nav">
-            <div class="navbar-nav ml-auto mx-lg-auto px-0 pt-3 pt-lg-0">
+            <div class="navbar-nav ml-auto">
               <span class="nav-item">
-                <a href="#" class="nav-link" role="button">ABOUT</a>
+                <a href="#" class="nav-link" role="button">CASH PRICES</a>
               </span>
               <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
-
+              <span class="nav-item">
+                <a href="#" class="nav-link" role="button">ABOUT US</a>
+              </span>
+              <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
+              <span class="nav-item">
+                <a href="#" class="nav-link" role="button">PROVIDERS</a>
+              </span>
+              <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
               <span class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" id="aboutdown" role="button"
-                  data-toggle="dropdown">BODY</a>
+                  data-toggle="dropdown">SERVICES</a>
                 <div class="dropdown-menu">
                   <a href="#" class="dropdown-item">Sub-Link</a>
                   <a href="#" class="dropdown-item">Sub-Link</a>
@@ -67,46 +79,6 @@
                 </div>
               </span>
               <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
-
-              <span class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" id="aboutdown" role="button"
-                  data-toggle="dropdown">FACE</a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                </div>
-              </span>
-              <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
-
-              <span class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" id="aboutdown" role="button"
-                  data-toggle="dropdown">MIND</a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                </div>
-              </span>
-              <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
-
-              <span class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" id="aboutdown" role="button"
-                  data-toggle="dropdown">PRODUCTS</a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                </div>
-              </span>
-              <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
-
               <span class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" id="aboutdown" role="button"
                   data-toggle="dropdown">CONCERNS</a>
@@ -120,35 +92,18 @@
               </span>
               <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
 
-              <span class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" id="aboutdown" role="button" data-toggle="dropdown">PATIENT
-                  INFO</a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                </div>
+              <span class="nav-item">
+                <a href="#" class="nav-link" role="button">PATIENT INFO</a>
               </span>
               <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
-
-              <span class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" id="aboutdown" role="button" data-toggle="dropdown">REQUEST
-                  APPOINTMENT</a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                  <a href="#" class="dropdown-item">Sub-Link</a>
-                </div>
+              <span class="nav-item">
+                <a href="#" class="nav-link" role="button">BOOK NOW</a>
               </span>
             </div>
           </div>
         </nav>
       </div>
-    </section>
+    </div>
     <!-- /navbar -->
   </header>
 
@@ -157,73 +112,7 @@
   </main>
 
   <footer>
-    <!-- footer-1 -->
-    <section class="footer-1">
-      <div class="containerish">
-        <img src="img/footer-logo.svg" alt="" class="footer-logo">
-        <div class="line"></div>
-        <div class="section-info">
-          <p class="body-copy color-white text-center">
-            3407 Glenview Ave, Austin, TX 78703 <br>
-            Mon - Thurs: 8am - 5pm | Friday 8am - 4pm | Saturday 9am - 3pm<br>
-            781-826-5400
-          </p>
-        </div>
 
-        <div class="social-footer">
-          <div class="line"></div>
-          <a href="#" class="footer-social-link">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="#" class="footer-social-link">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <div class="line"></div>
-        </div>
-
-
-        <div class="newsletter">
-          <p class="color-white newsletter-title">SUBSCRIBE TO OUR NEWSLETTER</p>
-          <p class="color-white body-copy text-center">Add your name and email address to get the latest news & info
-            from Alchemy
-            Wellness</p>
-          <form action="#" class="newsletter-form">
-            <input type="text" class="form-control" placeholder="FULL NAME">
-            <input type="email" class="form-control" placeholder="EMAIL">
-            <button class="ui-btn ui-btn-white-ol" type="submit">
-              SUBMIT
-            </button>
-          </form>
-        </div>
-
-        <!-- footer-nav -->
-        <ul class="footer-nav">
-          <li><a href="#" class="footer-nav-link">ABOUT</a></li>
-          <li><a href="#" class="footer-nav-link">BODY</a></li>
-          <li><a href="#" class="footer-nav-link">FACE</a></li>
-          <li><a href="#" class="footer-nav-link">MIND</a></li>
-          <li><a href="#" class="footer-nav-link">PRODUCTS</a></li>
-          <li><a href="#" class="footer-nav-link">CONCERNS</a></li>
-          <li><a href="#" class="footer-nav-link">PATIENT INFO</a></li>
-          <li><a href="#" class="footer-nav-link">REQUEST INFO</a></li>
-          <li><a href="#" class="footer-nav-link">PROMOTIONS</a></li>
-          <li><a href="#" class="footer-nav-link">EVENTS</a></li>
-          <li><a href="#" class="footer-nav-link">BLOG</a></li>
-        </ul>
-        <!-- /footer-nav -->
-      </div>
-    </section>
-    <!-- /footer-1 -->
-
-    <!-- footer-2 -->
-    <section class="footer2">
-      <div class="containerish">
-        <p class="small-copy color-dark-accent-accent text-center mb-0">
-          Alchemy Wellness | <a href="#" class="footer-link-2">Website by Urge Interactive</a>
-        </p>
-      </div>
-    </section>
-    <!-- /footer-2 -->
   </footer>
 
 
