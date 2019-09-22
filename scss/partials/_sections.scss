@@ -80,3 +80,34 @@
     }
   }
 }
+
+/* NEWSLETTER *************************************************************** */
+.newsletter {
+  background: url('../../img/newsletter-bg@2x.jpg') center / cover;
+  min-height: 200px;
+  align-items: center;
+
+  .containerish {
+    padding: 40px 20px;
+    display: grid;
+
+    h3,
+    h2,
+    p {
+      text-align: center;
+    }
+
+    p {
+      margin-top: 0.5rem;
+    }
+
+    .form-control {
+      margin-bottom: 0.5rem;
+      border-radius: 0;
+    }
+
+    .form-control:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
