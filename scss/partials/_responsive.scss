@@ -20,10 +20,19 @@
   .ui-btn {
     display: inline-flex;
     min-width: 186px;
-    // padding: 0.8rem 1rem;
+    padding: 1.5rem 1rem;
   }
 
 
+  /* HERO ******************************************************************* */
+  .hero {
+    padding: 10px 20px;
+    height: 600px;
+
+    &::before {
+      background: rgba($color-dark, .3);
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -87,6 +96,13 @@
   .nav-item {
     margin-right: 1rem;
   }
+
+  /* HERO ******************************************************************* */
+  .hero {
+    &::before {
+      background: rgba($color-dark, 0);
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -111,9 +127,35 @@
 /* MACBOOK PRO 15" BREAKPOINT (Large Desktops 1400px and up) */
 /* -------------------------------------------------------------------------- */
 @media screen and (min-width: 1400px) {
+
+  /* TOPBAR ***************************************************************** */
+  .topbar {
+    padding: .2rem 1rem;
+
+    .containerish {
+      grid-template-columns: 1fr max-content 1fr;
+      align-items: center;
+
+
+      .col-mid {
+        display: flex;
+        justify-content: center;
+
+        p {
+          margin: 0;
+          text-align: center;
+        }
+      }
+
+      .col-right {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+    }
+  }
+
   /* NAVBAR ***************************************************************** */
-
-
   .nav-wrapper {
     .containerish {
       padding: .2rem 0rem;
@@ -124,4 +166,8 @@
 /* -------------------------------------------------------------------------- */
 /* SUPER LARGE BREAKPOINT (IMAC STATUS 1900px and up) */
 /* -------------------------------------------------------------------------- */
-@media screen and (min-width: 1900px) {}
+@media screen and (min-width: 1900px) {
+  .hero {
+    height: 850px;
+  }
+}

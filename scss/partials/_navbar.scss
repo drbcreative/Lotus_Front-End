@@ -1,10 +1,7 @@
 .nav-wrapper {
   background: $color-light;
   position: relative;
-
-  // .container {
-  //   position: relative;
-  // }
+  box-shadow: 0 3px 6px rgba($color-dark, .16);
 
   &.show {
     // background: $color-white;
