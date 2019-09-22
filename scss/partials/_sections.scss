@@ -54,3 +54,29 @@
     }
   }
 }
+
+/* MENOPAUSE **************************************************************** */
+.menopause {
+  background: linear-gradient(160deg, #CC5475, #5D6198);
+  min-height: 300px;
+  padding: 40px 20px;
+
+  .containerish {
+    position: relative;
+  }
+}
+
+/* DR BIO ******************************************************************* */
+.bio {
+  min-height: 300px;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+    grid-gap: 2rem;
+
+    .section-info {
+      position: relative;
+    }
+  }
+}

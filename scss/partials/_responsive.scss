@@ -33,6 +33,50 @@
       background: rgba($color-dark, .3);
     }
   }
+
+  /* MENOPAUSE ************************************************************** */
+  .menopause {
+    padding: 0;
+    height: 700px;
+
+    .containerish {
+      position: relative;
+
+      .section-img {
+        width: 65%;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: 25px;
+      }
+
+      .section-info {
+        width: 60%;
+        max-width: 580px;
+        position: absolute;
+        top: 300px;
+        left: 50px;
+        z-index: 25;
+      }
+    }
+  }
+
+  /* DR BIO ***************************************************************** */
+  .bio {
+    min-height: 300px;
+    padding: 60px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      align-items: center;
+      grid-gap: 2rem;
+
+      .section-info {
+        position: relative;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -131,6 +175,51 @@
       }
     }
   }
+
+  /* MENOPAUSE ************************************************************** */
+  .menopause {
+    padding: 0;
+    height: 650px;
+
+    .containerish {
+      position: relative;
+
+      .section-img {
+        width: 75%;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: 25px;
+      }
+
+      .section-info {
+        width: 50%;
+        max-width: 580px;
+        position: absolute;
+        top: 70px;
+        left: 50px;
+        z-index: 25;
+      }
+    }
+  }
+
+  /* DR BIO ***************************************************************** */
+  .bio {
+    margin-top: -10px;
+    min-height: 300px;
+    padding: 0 20px 60px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      grid-gap: 4rem;
+
+      .section-info {
+        position: relative;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -147,6 +236,52 @@
     .nav-logo {
       width: 339.31px;
       height: 93.16px;
+    }
+  }
+
+  /* MENOPAUSE ************************************************************** */
+  .menopause {
+    padding: 0;
+    height: 850px;
+
+    .containerish {
+      position: relative;
+
+      .section-img {
+        width: 75%;
+        max-width: 1155px;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: 45px;
+      }
+
+      .section-info {
+        width: 50%;
+        max-width: 580px;
+        position: absolute;
+        top: 130px;
+        left: 80px;
+        z-index: 25;
+      }
+    }
+  }
+
+  /* DR BIO ***************************************************************** */
+  .bio {
+    margin-top: -50px;
+    min-height: 300px;
+    padding: 0 20px 60px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      grid-gap: 4rem;
+
+      .section-info {
+        position: relative;
+      }
     }
   }
 }
@@ -189,6 +324,57 @@
       padding: .2rem 0rem;
     }
   }
+
+  /* MENOPAUSE ************************************************************** */
+  .menopause {
+    padding: 0;
+    height: 900px;
+
+    .containerish {
+      position: relative;
+
+      .section-img {
+        width: 75%;
+        max-width: 1155px;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: 45px;
+      }
+
+      .section-info {
+        width: 50%;
+        max-width: 580px;
+        position: absolute;
+        top: 130px;
+        left: 80px;
+        z-index: 25;
+      }
+    }
+  }
+
+  /* DR BIO ***************************************************************** */
+  .bio {
+    margin-top: -60px;
+    min-height: 300px;
+    padding: 0 20px 60px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      grid-gap: 4rem;
+
+      .section-info {
+        position: relative;
+
+        p {
+          max-width: 521px;
+        }
+      }
+    }
+  }
+
 }
 
 /* -------------------------------------------------------------------------- */
