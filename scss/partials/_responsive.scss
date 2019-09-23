@@ -166,6 +166,25 @@
       }
     }
   }
+
+  /* APPOINTMENTS ----------------------------------------------------------- */
+  .appointments {
+    margin-top: 6rem;
+
+    .appointment-wrapper {
+      flex: 1;
+      max-width: 865px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+
+      button {
+        grid-column: 1 / -1;
+        justify-self: center;
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -572,6 +591,24 @@
       }
     }
   }
+
+  /* TESTIMONIAL AND APPOINTMENTS******************************************** */
+  .testi-appointments {
+    background: url('../../img/appointments-bg@2x.jpg') center / cover;
+    padding: 60px 20px;
+
+    .containerish {
+      .testimonial {
+        text-align: center;
+
+        .test-stars {
+          width: 209.71px;
+          height: 33.84px;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -724,6 +761,24 @@
   /* WOMAN AND TEEN HEALTH ************************************************** */
   .woman-teen-health {
     padding: 80px 20px;
+  }
+
+  /* TESTIMONIAL AND APPOINTMENTS******************************************** */
+  .testi-appointments {
+    background: url('../../img/appointments-bg@2x.jpg') center / cover;
+    padding: 80px 20px;
+
+    .containerish {
+      .testimonial {
+        text-align: center;
+
+        .test-stars {
+          width: 209.71px;
+          height: 33.84px;
+          margin-bottom: 1rem;
+        }
+      }
+    }
   }
 
 }
