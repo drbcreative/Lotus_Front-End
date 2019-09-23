@@ -41,6 +41,8 @@
     .form-control {
       border-radius: 0;
       margin-bottom: 0.5rem;
+      line-height: 0;
+      border: none;
     }
 
     .form-control:not(button) {
@@ -104,6 +106,12 @@
     .form-control {
       margin-bottom: 0.5rem;
       border-radius: 0;
+      line-height: 0;
+      border: none;
+
+      &.ui-btn {
+        height: 45px;
+      }
     }
 
     .form-control:last-child {
