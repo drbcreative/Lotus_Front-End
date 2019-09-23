@@ -145,3 +145,29 @@
     position: relative;
   }
 }
+
+/* WOMAN AND TEEN HEALTH **************************************************** */
+.woman-teen-health {
+  padding: 40px 20px;
+
+  .wth-img {
+    margin-bottom: 4rem;
+  }
+
+  .containerish {
+    .section-info {
+      text-align: center;
+      position: relative;
+
+      p {
+        max-width: 670px;
+        margin: 0 auto;
+      }
+
+      .title-bg {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
