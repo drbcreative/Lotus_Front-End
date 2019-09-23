@@ -4,7 +4,61 @@
 /* -------------------------------------------------------------------------- */
 /* FOOTER 1 SECTION */
 /* -------------------------------------------------------------------------- */
-.footer-1 {}
+.footer-1 {
+  background: url('../../img/footer-1-bg@2x.jpg') center / cover;
+  min-height: 200px;
+  padding: 40px 20px;
+
+  .containerish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .body-copy {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+    .footer-logo {
+      height: 129.76px;
+      width: 272.45px;
+      margin-bottom: 2rem;
+    }
+
+    .footer-map {
+      max-width: 518px;
+      max-height: 234px;
+    }
+
+
+    /* FOOTER-NAV */
+    .footer-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      margin-top: 2rem;
+
+      li {
+        list-style-type: none;
+
+        .footer-nav-link {
+          font-family: $font-secondary;
+          font-size: 0.8125rem;
+          font-weight: 500;
+          color: $color-dark;
+
+          &:hover {
+            color: $color-main;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* FOOTER 2 SECTION */
@@ -28,10 +82,10 @@
       font-size: 12px;
       line-height: calc(12px * 1.5);
       font-family: $font-primary;
-      color: $color-dark-accent !important;
+      color: $color-text-grey !important;
 
       &:hover {
-        color: $color-light-accent;
+        color: $color-main;
         text-decoration: none;
       }
     }
