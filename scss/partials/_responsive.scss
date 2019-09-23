@@ -136,6 +136,36 @@
       margin-bottom: 4rem;
     }
   }
+
+  /* SEXUAL MEDICINE ******************************************************** */
+  .sexual-medicine {
+    padding: 40px 20px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba($color-dark, .7);
+    }
+
+    .containerish {
+      z-index: 10;
+
+      .section-info {
+        position: relative;
+        width: 50%;
+        max-width: 600px;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -385,6 +415,39 @@
 
     .wth-img {
       margin-bottom: 8rem;
+    }
+  }
+
+  /* SEXUAL MEDICINE ******************************************************** */
+  .sexual-medicine {
+    height: 75vh;
+    max-height: 828px;
+    padding: 40px 20px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba($color-dark, 0);
+    }
+
+    .containerish {
+      z-index: 10;
+
+      .section-info {
+        position: relative;
+        width: 50%;
+        max-width: 600px;
+        margin-left: 3rem;
+      }
     }
   }
 }
