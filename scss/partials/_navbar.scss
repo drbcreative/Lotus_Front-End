@@ -3,17 +3,14 @@
   position: relative;
   box-shadow: 0 3px 6px rgba($color-dark, .16);
 
-  // &.show {
-  //   // background: $color-white;
-  // }
+  &.show {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 }
 
 .navbar {
-
-  // .nav-logo {
-  //   max-width: 339.31px;
-  //   max-height: 93.16px;
-  // }
   .nav-logo {
     width: 200px;
     height: auto;

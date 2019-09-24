@@ -227,10 +227,6 @@
     background: $color-light;
     position: relative;
 
-    // &.show {
-    //   // background: $color-white;
-    // }
-
     .containerish {
       padding: .2rem 1rem;
     }
@@ -240,6 +236,17 @@
     .nav-logo {
       max-width: 339.31px;
       max-height: 93.16px;
+      transition: all .3s ease-in-out;
+
+      &.show {
+        max-width: 250px;
+        max-height: auto;
+        transition: all .3s ease-in-out;
+      }
+    }
+
+    &.show {
+      padding: 0;
     }
   }
 
