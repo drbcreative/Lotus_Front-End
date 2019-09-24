@@ -3,9 +3,9 @@
   position: relative;
   box-shadow: 0 3px 6px rgba($color-dark, .16);
 
-  &.show {
-    // background: $color-white;
-  }
+  // &.show {
+  //   // background: $color-white;
+  // }
 }
 
 .navbar {
@@ -45,7 +45,7 @@
   position: relative;
 
   &::after {
-    content: url('../../img/nav-sep-line.png');
+    content: url('../img/nav-sep-line.png');
     position: absolute;
     top: 50%;
     left: 50%;

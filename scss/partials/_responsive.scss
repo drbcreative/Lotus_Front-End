@@ -204,7 +204,6 @@
       grid-template-columns: max-content 1fr max-content;
       align-items: center;
 
-      .col-left {}
 
       .col-mid {
         display: flex;
@@ -216,7 +215,6 @@
         }
       }
 
-      .col-right {}
     }
   }
 
@@ -229,9 +227,9 @@
     background: $color-light;
     position: relative;
 
-    &.show {
-      // background: $color-white;
-    }
+    // &.show {
+    //   // background: $color-white;
+    // }
 
     .containerish {
       padding: .2rem 1rem;
@@ -313,9 +311,9 @@
 
   /* DR BIO ***************************************************************** */
   .bio {
-    margin-top: -10px;
+    // margin-top: -10px;
     min-height: 300px;
-    padding: 0 20px 60px 20px;
+    padding: 40px 20px;
 
     .containerish {
       display: grid;
@@ -340,7 +338,7 @@
       grid-template-rows: auto;
       grid-gap: 1rem;
 
-      h3 {
+      h2 {
         grid-row: 1;
         grid-column: 1 / -1;
       }
@@ -472,7 +470,7 @@
 
   /* FOOTER-1 *************************************************************** */
   .footer-1 {
-    background: url('../../img/footer-1-bg@2x.jpg') center / cover;
+    background: url('../img/footer-1-bg@2x.jpg') center / cover;
     min-height: 200px;
     padding: 40px 20px;
 
@@ -615,7 +613,7 @@
 
   /* TESTIMONIAL AND APPOINTMENTS******************************************** */
   .testi-appointments {
-    background: url('../../img/appointments-bg@2x.jpg') center / cover;
+    background: url('../img/appointments-bg@2x.jpg') center / cover;
     padding: 60px 20px;
 
     .containerish {
@@ -786,7 +784,7 @@
 
   /* TESTIMONIAL AND APPOINTMENTS******************************************** */
   .testi-appointments {
-    background: url('../../img/appointments-bg@2x.jpg') center / cover;
+    background: url('../img/appointments-bg@2x.jpg') center / cover;
     padding: 80px 20px;
 
     .containerish {

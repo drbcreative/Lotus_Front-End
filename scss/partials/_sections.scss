@@ -5,7 +5,7 @@
 /* HERO ********************************************************************* */
 .hero {
   padding: 40px 20px;
-  background: url('../../img/hero-img@2x.jpg') center / cover;
+  background: url('../img/hero-img@2x.jpg') center / cover;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -85,7 +85,7 @@
 
 /* NEWSLETTER *************************************************************** */
 .newsletter {
-  background: url('../../img/newsletter-bg@2x.jpg') center / cover;
+  background: url('../img/newsletter-bg@2x.jpg') center / cover;
   min-height: 200px;
   align-items: center;
 
@@ -93,7 +93,6 @@
     padding: 40px 20px;
     display: grid;
 
-    h3,
     h2,
     p {
       text-align: center;
@@ -170,6 +169,7 @@
       p {
         max-width: 670px;
         margin: 0 auto;
+        text-align: left;
       }
 
       .title-bg {
@@ -182,7 +182,7 @@
 
 /* SEXUAL MEDICINE ********************************************************** */
 .sexual-medicine {
-  background: url('../../img/sexual-med-bg@2x.jpg') center / cover;
+  background: url('../img/sexual-med-bg@2x.jpg') center / cover;
   padding: 40px 20px;
   position: relative;
   display: flex;
@@ -212,7 +212,7 @@
 
 /* TESTIMONIAL & APPOINTMENTS *********************************************** */
 .testi-appointments {
-  background: url('../../img/appointments-bg@2x.jpg') center / cover;
+  background: url('../img/appointments-bg@2x.jpg') center / cover;
   padding: 40px 20px;
 
   .containerish {
